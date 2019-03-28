@@ -1,0 +1,38 @@
+@import "mq";
+@import "fonts";
+@import "palette";
+// Uncomment for embeds
+//@import "embed";
+// Uncomment for full screen (including immersive article main media)
+//@import "fullscreen";
+.element-atom,
+.interactive-atom {
+    margin: 0 !important;
+}
+
+svg {
+    overflow: visible;
+}
+
+path {
+    fill: none;
+    stroke-width: 1px;
+    stroke: red;
+
+    &#Brown {
+        stroke: brown;
+    }
+    &#Cameron {
+        stroke: blue;
+
+    }
+    &#Major {
+        stroke: grey;
+    }
+    &#Blair {
+        stroke: orange;
+    }
+    &#Thatcher {
+        stroke: black;
+    }
+}
